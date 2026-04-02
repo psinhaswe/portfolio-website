@@ -233,7 +233,7 @@ export default function App() {
       <section className="min-h-screen flex flex-col justify-center px-10 pt-32 pb-16 relative z-10" style={{ maxWidth: 900, margin: "0 auto" }}>
         <div className="inline-block px-3 py-1 rounded-full text-xs font-mono mb-6"
           style={{ color: "#2fd4a0", background: "rgba(47,212,160,.1)", border: "1px solid rgba(47,212,160,.25)" }}>
-          Open to SWE & ML/Data internships · May 2026
+          Open to New Grad Jobs · May 2026
         </div>
         <h1 className="font-extrabold leading-tight mb-4" style={{ fontSize: "clamp(2.5rem,6vw,4.5rem)" }}>
           Hi, I'm{" "}
@@ -274,7 +274,7 @@ export default function App() {
             style={{ background: "#7c6ff7" }} onMouseEnter={e => { e.target.style.background = "#6a5de8"; e.target.style.transform = "translateY(-2px)"; }} onMouseLeave={e => { e.target.style.background = "#7c6ff7"; e.target.style.transform = "none"; }}>
             View Experience
           </button>
-          <a href="#" className="px-7 py-3 rounded-lg font-semibold transition-all duration-200"
+          <a href="/Praveen-Resume.pdf" target="_blank" className="px-7 py-3 rounded-lg font-semibold transition-all duration-200"
             style={{ background: "transparent", border: "1px solid #2a2a38", color: "#e8e8f0", textDecoration: "none" }}
             onMouseEnter={e => { e.target.style.borderColor = "#7c6ff7"; e.target.style.color = "#7c6ff7"; e.target.style.transform = "translateY(-2px)"; }}
             onMouseLeave={e => { e.target.style.borderColor = "#2a2a38"; e.target.style.color = "#e8e8f0"; e.target.style.transform = "none"; }}>
@@ -399,7 +399,7 @@ export default function App() {
             </a>
           ))}
         </div>
-        <a href="#" className="px-7 py-3 rounded-lg font-semibold text-white transition-all duration-200"
+        <a href="/Praveen-Resume.pdf" target="_blank" className="px-7 py-3 rounded-lg font-semibold text-white transition-all duration-200"
           style={{ background: "#7c6ff7", textDecoration: "none" }}
           onMouseEnter={e => { e.target.style.background = "#6a5de8"; e.target.style.transform = "translateY(-2px)"; }}
           onMouseLeave={e => { e.target.style.background = "#7c6ff7"; e.target.style.transform = "none"; }}>
